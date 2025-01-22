@@ -1,14 +1,55 @@
 
+/* dimensionamento logo */
+
 #logo {
     height: 50px;
-    
 }
 
+/* sistemazione header */
+
 header {
-    height: 150px;
+    max-height: 150px;
     width: 100%;
     background-color: aqua;
     background-image: url(../immagini/pattern.png);
-    padding: 10% 0;
-       
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* contramento main*/
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* carattere foglio */
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+}
+
+/* spazio tra le sezioni */
+
+section {
+    margin-top: 40px;    
+}
+
+/* sezione titolo e autore */
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.author {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+em {
+    color: blue;
 }
