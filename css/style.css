@@ -1,4 +1,11 @@
 
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* dimensionamento logo */
 
 #logo {
@@ -8,15 +15,13 @@
 /* sistemazione header */
 
 header {
-    max-height: 150px;
-    width: 100%;
+
     background-color: aqua;
     background-image: url(../immagini/pattern.png);
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10%;
-    padding-right: 10%;
-}
+}   
 
 /* contramento main*/
 
@@ -90,6 +95,10 @@ th {
 
 .riga-scura {
     background-color: lightgrey;
+}
+
+.dimensioni-colonna {
+    width: 50%;
 }
 
 /* footer */
